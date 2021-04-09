@@ -1,0 +1,289 @@
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #welcome {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .welcome_header h3 {
+        padding-bottom: 60px;
+    }
+    .welcome_item h4 {
+        padding-bottom: 20px;
+    }
+    .welcome_item p {
+        width: 100%;
+        padding-bottom:0;
+    }
+
+    #showcase {
+        padding-top: 60px;
+    }
+    #team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+/* Slills Part */
+    .skills_content {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .skills_heading p {
+        margin: 0 auto;
+    }
+    .slills_overly {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #service {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .welcome_item p {
+        padding-bottom: 30px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .bennar_text h1 {
+        font-size: 15px;
+    }
+    .bennar_text h4 {
+        font-size: 18px;
+    }
+    .bennar_text .direction {
+        opacity: 0;
+    }
+    .bennar_text .bennar_content {
+        width: 100%;
+    }
+    .bennar_text .bennar_content p {
+        font-size: 16px;
+    }
+    .bennar_text .bennar_content button {
+        font-size: 17px;
+        padding: 0px 20px;
+    }
+    /* Menu===== */
+    .navbar-nav {
+        float: right;
+        text-align: right;
+    }
+    /* WElcome Part */
+    #welcome {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #c9d4d2;
+    }
+    .welcome_header h3 {
+        padding-bottom: 20px;
+    }
+    .welcome_item h4 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .welcome_item p {
+        padding-bottom: 20px;
+    }
+/* Showcase Part */
+    #showcase {
+        padding-top: 20px;
+    }
+    /* twitter Part */
+    .twitter_overly {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+/*  Team Part*/
+    #team {
+        background: #aac7e5;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /* slills Part */
+    .slills_overly {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /*Bennar_2  */
+    .ben_two_text {
+        width: 100%;
+    }
+    /* Portfolio Part */
+    .btn_group {
+        width: 100%;
+        text-align: center;
+    }
+    .portfolio_header button {
+        font-size: 14px;
+        border: 1px solid rgb(172, 168, 168);
+        margin-left: 5px;
+        padding: 0 5px;
+    }
+    /* Blog Part */
+    #blog {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog_header h3 {
+        padding-bottom: 20px;
+    }
+    .blog_item .blog_content p {
+        padding-bottom: 20px;
+    }
+    /* Brand Part */
+    #brand {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /*  contact*/
+    #contact {
+        padding-bottom: 45px;
+    }
+    /* Footer */
+    .footer_icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    .footer_icon i {
+        font-size: 15px;
+        line-height: 40px;
+    }
+}
+
+/* Less than 320px */
+@media (max-width: 319.98px) {
+    /* Bennar====== */
+    h1{
+        font-size: 17px!important;
+
+    }
+    h2{
+        font-size: 16px!important;
+    }
+    h3, h4, h5, h6{
+        font-size: 15px!important;
+    }
+    p{
+        font-size: 14px!important;
+    }
+    .bennar_text h1 {
+        font-size: 15px;
+    }
+    .bennar_text h4 {
+        font-size: 18px;
+    }
+    .bennar_text .direction {
+        opacity: 0;
+    }
+    .bennar_text .bennar_content {
+        width: 100%;
+    }
+    .bennar_text .bennar_content p {
+        font-size: 16px;
+    }
+    .bennar_text .bennar_content button {
+        font-size: 17px;
+        padding: 0px 20px;
+    }
+    /* Menu===== */
+    .navbar-nav {
+        float: right;
+        text-align: right;
+    }
+    /* WElcome Part */
+    #welcome {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #c9d4d2;
+    }
+    .welcome_header h3 {
+        padding-bottom: 20px;
+    }
+    .welcome_item h4 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .welcome_item p {
+        padding-bottom: 20px;
+    }
+/* Showcase Part */
+    #showcase {
+        padding-top: 20px;
+    }
+    /* twitter Part */
+    .twitter_overly {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+/*  Team Part*/
+    #team {
+        background: #aac7e5;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /* slills Part */
+    .slills_overly {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /*Bennar_2  */
+    .ben_two_text {
+        width: 100%;
+    }
+    /* Portfolio Part */
+    .btn_group {
+        width: 100%;
+        text-align: center;
+    }
+    .portfolio_header button {
+        font-size: 14px;
+        border: 1px solid rgb(172, 168, 168);
+        margin-left: 5px;
+        padding: 0 5px;
+    }
+    /* Blog Part */
+    #blog {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog_header h3 {
+        padding-bottom: 20px;
+    }
+    .blog_item .blog_content p {
+        padding-bottom: 20px;
+    }
+    /* Brand Part */
+    #brand {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /*  contact*/
+    #contact {
+        padding-bottom: 45px;
+    }
+    /* Footer */
+    .footer_icon_group {
+        width: 100%;
+    }
+    .footer_icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    .footer_icon i {
+        font-size: 15px;
+        line-height: 40px;
+    }
+}

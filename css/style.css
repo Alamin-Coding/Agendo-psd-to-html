@@ -1,0 +1,942 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    vertical-align: center;
+}
+.mr{
+    margin-right: 0!important;
+}
+/* All Common css End */
+
+/*=========Bennar Part Start =========*/
+.bennar_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 85%;
+}
+.bennar_text h1 {
+    color: #ffffff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    animation-duration: 3s;
+}
+.bennar_text h4{
+    color: #cabbbb;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    animation-duration: 2s;
+}
+.bennar_text .bennar_content{
+    width: 50%;
+    display: inline-block;
+}
+.animate__animated.animate__zoomInDown {
+    --animate-duration: 1.5s;
+  }
+.bennar_text .bennar_content p {
+	color: #b0b0b0;
+	font-size: 30px;
+	text-transform: capitalize;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	padding-bottom: 34px;
+}
+.bennar_text .bennar_content button {
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding:5px 30px;
+
+}
+.bennar_text .direction{
+
+    width: 40%;
+    display: inline-block;
+}
+.nivoSlider img {
+	position: absolute;
+	top: 0px;
+	left: auto;
+	max-width: none;
+	right: 0%;
+}
+.nivo-caption {
+	opacity: 1;
+	height: 100%;
+	background: rgba(0,0,0,.6);
+}
+.nivo-prevNav {
+	left: 12px;
+	width: 40px;
+    height: 40px;
+    box-shadow: 0px 0px 7px 4px #a39b9b82;
+	border-radius: 50%;
+	text-align: center;
+}
+.nivo-nextNav {
+	right: 12px;
+	width: 40px;
+	height: 40px;
+	box-shadow: 0px 0px 7px 4px #a39b9b82;
+	border-radius: 50%;
+	text-align: center;
+}
+.b_icon i{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+}
+.nivo_fixd{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 111;
+}
+.he{
+    color: #e5ece1;
+    font-size: 1.5rem;
+}
+
+/*=========Bennar Part End =========*/
+
+/*=========Menu Part Start =========*/
+.navbar-toggler {
+	background-color: #d4d3d49c;
+}
+.navbar-toggler i {
+	font-weight: 400;
+	color: #ffffff;
+}
+.navbar-toggler:focus, .navbar-toggler:hover {
+	outline: none;
+}
+.navbar{
+    background: #177bbb;
+}
+.navbar-brand {
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Rochester', cursive;
+    font-weight: 400;
+}
+.nav-item .nav-link{
+    color: #a8c0c0!important;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+.nav-item .nav-link:hover{
+    color: #ffffff!important;
+}
+
+
+/*=========Menu Part End =========*/
+
+/*=========Welcome Part Start =========*/
+#welcome{
+    padding-top: 95px;
+    padding-bottom: 95px;
+    background: #ffffff;
+}
+.welcome_header h3{
+    color: #010000;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 95px;
+}
+.welcome_header h3 span{
+    color: #177bbb;
+
+}
+.welcome_item_icon{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    border: 1px solid #020202;
+    text-align: center;
+    transition:  all linear .3s;
+}
+.welcome_item_icon a{
+    color: #020202;
+    font-size: 44px;
+    line-height: 88px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    transition:  all linear .3s;
+}
+.welcome_item h4{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.welcome_item p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 270px;
+    margin: 0 auto;
+}
+
+.welcome_item_icon:hover{
+    background: #177bbb;
+    border: 1px solid #177bbb;
+}
+.welcome_item_icon:hover a{
+    color: #ffffff;
+}
+.slick-center .welcome_item_icon{
+    background: #177bbb;
+    border: 1px solid #177bbb;
+}
+.slick-center a{
+    color: #ffffff;
+}
+/*=========Welcome Part End =========*/
+
+
+/*=========showcase Part Start =========*/
+#showcase{
+    background: url(../images/shwcase-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 99px;
+}
+.showcase_header h3{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.showcase_header p{
+    color: #666666;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    width: 550px;
+    margin: 0 auto;
+}
+.showcase_header a{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 14px 42px;
+    background: #177bbb;
+    border-radius: 5px;
+    transition:  all linear .3s;
+}
+.showcase_header a:hover{
+    color: #c7c6c6;
+    background: #0993e9;
+
+}
+/*=========showcase Part End =========*/
+
+/*=========Twitter Part Start =========*/
+#twitter{
+    background: url(../images/tweter-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.twitter_overly{
+    background: rgba(0,0,0,.8);
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
+.twitter_item{
+    text-align: center;
+}
+.twitter_item .twitter_icon{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background: #177bbb;
+    text-align: center;
+}
+.twitter_item .twitter_icon a{
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 66px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    transition:  all linear .3s;
+}
+.twitter_item h2 {
+	color: #ffffff;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.twitter_item ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.twitter_item ul li a{
+    color: #177bbb;
+    font-size: 14px;
+    font-weight: 400;
+    transition:  all linear .3s;
+}
+.slick-dots {
+	width: 100%;
+	text-align: center;
+}
+.slick-dots li{
+    display: inline-block;
+    width:12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-left: 5px;
+}
+
+.slick-dots .slick-active{
+    background: #177bbb;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.slick-dots li button {
+    opacity: 0;
+}
+/*=========Twitter Part End =========*/
+
+/*=========Team Part Start =========*/
+#team{
+    background:#f6f6f6;
+    padding-top: 99px;
+    padding-bottom: 99px;
+}
+.team_header{
+    
+}
+.team_header h3{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.team_header p{
+    color: #666666;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 14px;
+}
+.team_item{
+padding-top: 50px;
+}
+.team_item_img{
+    margin: 0 auto;
+    position: relative;
+}
+.team_item_img{
+    width: 174px;
+    height: 174px;
+    border-radius:50%;
+    text-align:center;
+    overflow: hidden;
+}
+.team_img_overly{
+    position: absolute;
+    left: 0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(0,102,153,.9);
+    opacity: 0;
+    transition: all linear .4s;
+}
+
+.icon_group{
+    padding-top: 43%;
+}
+.team_icon{
+    width: 33px;
+    height: 33px;
+    background: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    transition: all linear .3s;
+}
+.team_icon:hover{
+    background: #e5ece1;
+}
+.team_icon a {
+    color: #006699;
+    font-size: 13px;
+    line-height: 33px;
+    display: block;
+    text-align: center;
+    transition: all linear .3s;
+}
+.team_icon a:hover{
+    color: #02aafd;
+}
+.team_item_text h4{
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+.team_item_text p{
+    color: #666666;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.team_item_img:hover .team_img_overly{
+    opacity: 1;
+}
+
+/*=========Team Part End =========*/
+
+
+/*=========Skills Part Start =======*/
+#skills{
+    background: url(../images/skills-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slills_overly {
+	background: rgba(255, 255, 255, 0.9);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.skills_heading h3{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 41px;
+}
+.skills_heading p{
+    color: #666666;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    text-align: left;
+    width: 478px;
+}
+.skills_content a{
+    color: #0066cc;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 0 40px;
+    border-radius: 5px;
+    border: 1px solid #0066cc;
+    display: inline-block;
+}
+/*=========Skills Part End =========*/
+.prog_item{
+    padding-bottom: 32px;
+}
+.prog_text {
+	width: 20%;
+	display: inline-block;
+	text-align: right;
+	padding-right: 31px;
+}
+.barfiller {
+    display: inline-block;
+    width: 78%;
+    height: 12px;
+    background: #C2E1ED;
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 5px;
+    margin-left: auto;
+   
+  }
+  
+  .barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    background: #007CB5!important;
+    z-index: 1;
+  }
+  
+  /* .barfiller .tipWrap { display: none; } */
+  
+  .barfiller .tip {
+	margin-top: -24px;
+	padding: 2px 20px;
+	font-size: 16px;
+	color: #000000;
+	left: 0px;
+	position: absolute;
+	z-index: 5;
+	background: transparent;
+	
+}
+  
+  /* .barfiller .tip:after {
+    border: solid;
+    border-color: rgba(0,0,0,.8) transparent;
+    border-width: 6px 6px 0 6px;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 9px;
+    top: 100%;
+    z-index: 9
+  } */
+
+  /* ====Services Part Start==== */
+  #service{
+      background: #007DB3;
+      padding-top: 100px;
+      padding-bottom: 90px;
+  }
+  .service_header{
+      padding-bottom: 45px;
+  }
+  .service_header h3{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* text-align: center; */
+  }
+  .service_header p{
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 17px;
+  }
+
+  .service_item{
+      display: flex;
+  }
+  .service_item .service_icon{
+      /* display: inline-block; */
+    width: 70px;
+    height: 70px;
+    background: #ff3333;
+    border-radius: 50%;
+    text-align: center;
+    
+  }
+  .service_item .icon_2{
+    background: #66cc66;
+  }
+  .service_item .icon_3{
+    background: #ff6633;
+  }
+  .service_item .icon_6{
+    background: #0058A1;
+  }
+  .service_item .service_icon i{
+    color: #ffffff;
+    font-size: 29px;
+    text-align: center;
+    line-height: 70px;
+  }
+
+  .service_item .service_text {
+    width: 273px;
+    padding-left: 35px;
+  }
+  .service_item .service_text h4{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .service_item .service_text p{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+  }
+  /* ====Services Part End==== */
+
+  /* ===Bennar_two Part Start=== */
+  #bennar_two{
+      background: url(../images/Bennar-2.png);
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .ben_two_overly{
+      padding-top: 210px;
+      padding-bottom: 50px;
+      background:rgba(0,0,0,.8)
+  }
+  .ben_two_text{
+      width: 822px;
+      margin: 0 auto;
+  }
+  .ben_two_text p{
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 400;
+      font-family: 'Roboto', sans-serif;
+  }
+  .ben_two_text p span{
+      color: #0066cc;
+
+  }
+  /* ===Bennar_two Part End=== */
+
+/*=========Portfolio Part Start =========*/
+#portfolio{
+    background: url(../images/shwcase-bg.png);
+    background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.portfolio_header{
+    
+}
+.portfolio_header h3{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.btn_group {
+	width: 476px;
+	margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 44px;
+}
+.portfolio_header button{
+    color: #0066cc;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+    border: none;
+    margin-left: 44px;
+    background: transparent;
+    cursor: pointer; 
+    transition: all linear .3s;
+}
+.portfolio_header button:hover{
+    color: #0e447a;
+    outline: none;
+}
+.portfolio_header button:active{
+    outline: none;
+}
+.portfolio_header button:focus{
+    outline: none;
+}
+.portfolio_item{
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.port_btn a{
+    color: #0066cc;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 15px 30px;
+    border: 2px solid #0066cc;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.protfolio_item_img {
+    
+}
+.portfolio_item h4{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    background: rgba(0,0,0,.7);
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/*=========Portfolio Part End =========*/
+
+/*=========Brand Part Start =========*/
+#brand{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #ffffff;
+}
+.brand_slider{
+    padding-bottom: 50px;
+}
+/*=========Brand Part End =========*/
+
+/*=========blog Part Start =========*/
+#blog{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #333333;
+}
+.blog_header h3{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 49px;
+}
+.blog_img{
+    position: relative;
+    
+}
+
+.blog_img_text{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: rgba(51, 102, 153, 0.9);
+}
+.month{
+    float: left;
+}
+.month ul{
+    padding-left: 18px;
+    margin-bottom: 0;
+    padding-top: 17px;
+}
+.month ul li{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: normal;
+}
+.comment{
+    float: right;
+}
+.comment p{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-right: 18px;
+    line-height: 65px;
+}
+
+.blog_item .blog_content h5{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.blog_item .blog_content p{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/*=========Blog Part End =========*/
+
+/*=========Contact Part Start =========*/
+#contact{
+    padding-top: 45px;
+    padding-bottom: 100px;
+    background: #ffffff;
+}
+.contact_text h4{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+}
+.contact_text p{
+    color: #666666;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 41px;
+    padding-top: 41px;
+}
+.contact_text ul li{
+    color: #0066cc;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+.contact_text ul li span{
+    margin-right: 18px;
+}
+.contact_form h4{
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 41px;
+}
+.contact_form input[type=text]{
+    color: #0066cc;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    line-height: 40px;
+    padding-left: 15px;
+    border: 1px solid #0066cc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.contact_form textarea{
+    color: #0066cc;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    padding-left: 15px;
+    border: 1px solid #0066cc;
+    border-radius: 3px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+.contact_form a{
+    color: #ffffff;
+    font-size: 15px;
+    background: #333333;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+}
+/*=========Contact Part End =========*/
+
+
+
+
+/*=========Footer Part Start =========*/
+#footer{
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.footer_icon_group {
+	display: inline-flex;
+}
+.footer_icon{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 30px;
+    transition: all linear 0.3s;
+}
+.footer_icon i{
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 68px;
+    display: block;
+    transition: all linear 0.3s;
+}
+#footer p{
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 25px;
+}
+.footer_icon:hover{
+    background: #ffffff;
+}
+.footer_icon:hover.footer_icon i{
+    color: #000;
+}
+/*=========Footer Part End =========*/
